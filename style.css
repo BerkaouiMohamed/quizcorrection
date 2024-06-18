@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(103,79,97);
+}
+.container{
+    background-color: rgba(235, 236, 237, 0.572);
+    margin: 10px auto;
+    width: 90%;
+    height: fit-content;
+    padding: 10px;
+}
+.container>div{
+    padding: 20px;
+    width: 90%;
+    margin: 10px auto;
+    height: fit-content;
+    background-color: rgba(103, 79, 97, 0.56);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.33);
+}
+h4{
+    margin-bottom: 30px;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    font-size: 17px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+span{
+    padding: 5px 10px;
+    background-color: rgb(103,79,97);
+    border-radius: 50%;
+    color: white;
+}
+button:hover{
+    border: 2px solid rgb(103,79,97);
+}
+.myclass{
+    border: 2px solid rgb(103,79,97);
+    background-color: rgb(255, 191, 0);
+}
